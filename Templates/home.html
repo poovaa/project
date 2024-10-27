@@ -1,0 +1,134 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-brand">Smart Fitness</div>
+        <ul class="navbar-links">
+            <li><a href="{% url 'login' %}">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Side: Calculator Box -->
+        <div class="calculator-container">
+            <h2>BMI Calculator</h2>
+            <form id="bmiForm" method="POST">
+                {% csrf_token %}
+                <div class="input-group">
+                    <label for="age">Age (years):</label>
+                    <input type="number" id="age" name="age" placeholder="Age" required min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" name="weight" placeholder="Weight" required min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="height">Height:</label>
+                    <div class="height-container">
+                        <input type="number" id="height" name="height" placeholder="Height" required min="0">
+                        <select id="heightUnit" name="heightUnit" required>
+                            <option value="cm">cm</option>
+                            <option value="ft">ft</option>
+                        </select>
+                    </div>
+                </div>
+
+                <fieldset class="gender-fieldset">
+                    <legend>Gender:</legend>
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female" required> Female</label>
+                </fieldset>
+
+                <div class="button-container">
+                    <button type="button" class="calculate-btn" onclick="calculateBMI()">Calculate</button>
+                    <button type="button" class="reset-btn" onclick="resetForm()">Reset</button>
+                </div>
+            </form>
+
+            <div class="result-container">
+                <h3>Your BMI:</h3>
+                <input type="text" id="result" readonly class="result-box">
+            </div>
+        </div>
+
+        <!-- Right Side: Result Table and Diet Plan -->
+        <div class="result-table-container">
+            <div class="calorie-container">
+                <h3>Calorie Recommendation</h3>
+                <textarea id="calorieResult" rows="3" readonly placeholder="Calories here..."></textarea>
+            </div>
+
+            <h3>BMI Categories</h3>
+            <table class="bmi-table">
+                <thead>
+                    <tr>
+                        <th>BMI Range</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Under 18.5</td><td>Underweight</td></tr>
+                    <tr><td>18.5 - 24.9</td><td>Normal weight</td></tr>
+                    <tr><td>25.0 - 29.9</td><td>Overweight</td></tr>
+                    <tr><td>30.0 and above</td><td>Obesity</td></tr>
+                </tbody>
+            </table>
+
+            <div class="diet-plan" id="dietPlan">
+                <h3>Diet Plan</h3>
+                <!-- Diet Plan Content -->
+                <div id="Underweight">
+                    <h4>Weight Gain Diet & Workout Plan</h4>
+                    <h4>Guidelines:</h4>
+                    <ul>
+                        <li>Caloric Surplus: +300-500 calories</li>
+                        <li>5-6 Meals/Day</li>
+                        <li>Nutrient-Dense Foods</li>
+                    </ul>
+                    <h4>Sample Meals:</h4>
+                    <ul>
+                        <li>Breakfast: Oatmeal with almond butter & nuts</li>
+                        <li>Snack: Smoothie with protein powder & banana</li>
+                        <li>Lunch: Chickpea salad with quinoa</li>
+                        <li>Dinner: Lentil stew & whole grain bread</li>
+                    </ul>
+                    <h4>Workout Plan</h4>
+                    <h4>Guidelines:</h4>
+                    <ul>
+                        <li>4-5 Days Strength Training</li>
+                        <li>Focus on Compound Exercises</li>
+                    </ul>
+                    <h4>Sample Routine:</h4>
+                    <ul>
+                        <li>Day 1: Upper Body</li>
+                        <li>Day 2: Lower Body</li>
+                        <li>Day 4: Push (Chest, Shoulders, Triceps)</li>
+                        <li>Day 5: Pull (Back, Biceps)</li>
+                        <li>Day 6: Legs</li>
+                    </ul>
+                    <h4>Tips:</h4>
+                    <ul>
+                        <li>Stay Hydrated</li>
+                        <li>Track Meals & Progress</li>
+                    </ul>
+                </div>
+                <!-- Repeat for other diet plans -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Tag -->
+    <script src="{% static 'js/scriptt.js' %}"></script>
+</body>
+</html>

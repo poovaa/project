@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Vegetarian Diet Plan for Weight Gain</title>
+  <link rel="stylesheet" href="{% static 'css/undernonveg.css' %}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Non-Vegetarian Diet Plan for Weight Gain</h1>
+
+    <h2>General Guidelines</h2>
+    <ul>
+        <li>Caloric Surplus: Aim for 300-500 extra calories daily.</li>
+        <li>Frequent Meals: Eat 5-6 smaller meals/snacks throughout the day.</li>
+        <li>Nutrient-Dense Foods: Focus on whole, high-calorie foods.</li>
+    </ul>
+
+    <h2>Sample Meal Plan</h2>
+
+    <h3>Breakfast</h3>
+    <p>Scrambled eggs (3-4 eggs) with cheese and spinach</p>
+    <p>Whole grain toast with butter</p>
+    <p>A banana or an avocado</p>
+
+    <h3>Morning Snack</h3>
+    <p>Greek yogurt with honey and a handful of granola</p>
+
+    <h3>Lunch</h3>
+    <p>Grilled chicken breast with quinoa and roasted vegetables (zucchini, bell peppers)</p>
+    <p>A side salad with olive oil dressing</p>
+
+    <h3>Afternoon Snack</h3>
+    <p>Tuna salad on whole grain crackers</p>
+
+    <h3>Dinner</h3>
+    <p>Baked salmon with brown rice and steamed broccoli</p>
+    <p>A sweet potato with butter</p>
+
+    <h3>Evening Snack</h3>
+    <p>Cottage cheese with pineapple or berries</p>
+</div>
+
+</body>
+</html>

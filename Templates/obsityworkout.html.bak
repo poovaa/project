@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plan for Weight Loss</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout Plan for Weight Loss</h1>
+
+        <h2>General Guidelines</h2>
+        <ul>
+            <li><strong>Combination of Cardio and Strength Training:</strong> Aim for at least 150-300 minutes of moderate-intensity exercise per week.</li>
+            <li><strong>Incorporate Strength Training:</strong> Helps build muscle, which can boost metabolism.</li>
+        </ul>
+
+        <h2>Sample Workout Plan</h2>
+
+        <h3>Day 1: Full Body Strength</h3>
+        <ul>
+            <li>Bodyweight Squats: 3 sets of 12-15 reps</li>
+            <li>Push-Ups: 3 sets of 8-10 reps (modified if needed)</li>
+            <li>Bent-Over Dumbbell Rows: 3 sets of 10-12 reps</li>
+            <li>Plank: 3 sets of 30-60 seconds</li>
+        </ul>
+
+        <h3>Day 2: Cardio</h3>
+        <ul>
+            <li>30-45 minutes of moderate-intensity cardio (brisk walking, cycling, swimming)</li>
+        </ul>
+
+        <h3>Day 3: Upper Body Strength</h3>
+        <ul>
+            <li>Dumbbell Bench Press: 3 sets of 8-10 reps</li>
+            <li>Dumbbell Shoulder Press: 3 sets of 10-12 reps</li>
+            <li>Bicep Curls: 3 sets of 10-12 reps</li>
+            <li>Tricep Dips: 3 sets of 8-10 reps</li>
+        </ul>
+
+        <h3>Day 4: Rest or Active Recovery</h3>
+        <ul>
+            <li>Light yoga, stretching, or a leisurely walk</li>
+        </ul>
+
+        <h3>Day 5: Lower Body Strength</h3>
+        <ul>
+            <li>Deadlifts (lightweight): 3 sets of 8-10 reps</li>
+            <li>Lunges: 3 sets of 10-12 reps per leg</li>
+            <li>Leg Press or Step-Ups: 3 sets of 10-12 reps</li>
+            <li>Calf Raises: 4 sets of 12-15 reps</li>
+        </ul>
+
+        <h3>Day 6: High-Intensity Interval Training (HIIT)</h3>
+        <ul>
+            <li>20-30 minutes of HIIT (alternating between 30 seconds of high effort and 1 minute of low effort)</li>
+        </ul>
+
+        <h3>Day 7: Flexibility or Rest</h3>
+        <ul>
+            <li>Focus on stretching, yoga, or foam rolling for recovery</li>
+        </ul>
+
+        <h2>Additional Tips</h2>
+        <ul>
+            <li><strong>Track Your Progress:</strong> Keep a food diary and log your workouts to monitor your intake and activity.</li>
+            <li><strong>Be Patient:</strong> Weight loss takes time; aim for sustainable changes rather than quick fixes.</li>
+        </ul>
+    </div>
+</body>
+</html>

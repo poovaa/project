@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Bolder font */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+.input-group input {
+    width: 100%; /* Full width for inputs */
+    padding: 12px; /* More padding for better touch targets */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* More rounded corners */
+    font-size: 16px;
+    transition: border-color 0.3s; /* Smooth transition for border */
+}
+
+.input-group input:focus {
+    border-color: #007BFF; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.input-group input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px; /* Consistent padding */
+    border-radius: 8px; /* Match input styles */
+    font-size: 16px; /* Match font size */
+    transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.messages {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.messages li {
+    padding: 12px;
+    border: 1px solid #f0ad4e;
+    border-radius: 8px;
+    background-color: #fcf8e3;
+    color: #856404;
+    margin-bottom: 10px; 
+
+/* Signup Section Styles */
+.signup-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-section a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-section a:hover {
+    text-decoration: underline; 
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px; 
+    }
+}

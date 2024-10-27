@@ -1,0 +1,50 @@
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/loginsty.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Fitness</h1>
+
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <form method="POST" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Enter Your Password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Log In">
+            </div>
+        </form>
+
+        <!-- Signup section moved below the login form -->
+        <div class="signup-section">
+            <strong>Don't have an account?</strong>
+            <p>Sign up for Smart Fitness:</p>
+            <a href="{% url 'signup' %}">Sign up</a>
+			</div>
+			<div>
+			<a href="{%url 'forgot'%}">Forgotpassword..?</a>
+        </div>
+    </div>
+</body>
+</html>

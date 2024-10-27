@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Vegetarian Diet Plan for Weight Loss</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Non-Vegetarian Diet Plan for Weight Loss</h1>
+
+    <div class="guidelines">
+        <h2>General Guidelines</h2>
+        <ul>
+            <li><strong>Caloric Deficit:</strong> Aim to consume fewer calories than you burn.</li>
+            <li><strong>Nutrient-Dense Foods:</strong> Focus on whole, minimally processed foods.</li>
+            <li><strong>Hydration:</strong> Drink plenty of water, aiming for at least 8 cups a day.</li>
+        </ul>
+    </div>
+
+    <div class="meal-plan">
+        <h2>Sample Meal Plan</h2>
+
+        <h3>Breakfast</h3>
+        <p>Omelette made with 2-3 eggs, spinach, and tomatoes<br>A slice of whole grain toast</p>
+
+        <h3>Morning Snack</h3>
+        <p>Greek yogurt (low-fat) with a handful of berries</p>
+
+        <h3>Lunch</h3>
+        <p>Grilled chicken breast with a large mixed green salad (lettuce, cucumbers, tomatoes) topped with olive oil and vinegar</p>
+
+        <h3>Afternoon Snack</h3>
+        <p>Sliced turkey or chicken breast wrapped in lettuce</p>
+
+        <h3>Dinner</h3>
+        <p>Baked fish (like salmon or tilapia) with steamed broccoli and quinoa</p>
+
+        <h3>Evening Snack (optional)</h3>
+        <p>Cottage cheese with a sprinkle of cinnamon and a few slices of fruit</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Meal Plan</title>
+    <link rel="stylesheet" href="veg_styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Vegetarian Meal Plan</h1>
+
+    <h2>General Guidelines</h2>
+    <ul>
+        <li>Balanced Meals: Focus on a mix of protein, healthy fats, and carbohydrates.</li>
+        <li>Hydration: Drink plenty of water throughout the day.</li>
+        <li>Meal Timing: Aim for 3 main meals and 2-3 snacks daily.</li>
+    </ul>
+
+    <h2>Sample Meal Plan</h2>
+
+    <h3>Breakfast</h3>
+    <p>Overnight oats with almond milk, chia seeds, and topped with fresh fruit and nuts</p>
+
+    <h3>Morning Snack</h3>
+    <p>Hummus with carrot and cucumber sticks</p>
+
+    <h3>Lunch</h3>
+    <p>Chickpea salad with cucumbers, bell peppers, feta cheese, and olive oil dressing</p>
+    <p>A slice of whole grain bread</p>
+
+    <h3>Afternoon Snack</h3>
+    <p>A small handful of mixed nuts and a piece of fruit (like an apple or banana)</p>
+
+    <h3>Dinner</h3>
+    <p>Stir-fried tofu with a mix of vegetables (bell peppers, broccoli, carrots) served over brown rice</p>
+
+    <h3>Evening Snack (optional)</h3>
+    <p>A small bowl of air-popped popcorn or a protein smoothie</p>
+</div>
+
+</body>
+</html>

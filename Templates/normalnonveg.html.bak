@@ -1,0 +1,46 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Vegetarian Meal Plan</title>
+    <link rel="stylesheet" href="nonveg_styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Non-Vegetarian Meal Plan</h1>
+
+    <h2>General Guidelines</h2>
+    <ul>
+        <li>Balanced Meals: Focus on a mix of protein, healthy fats, and carbohydrates.</li>
+        <li>Hydration: Drink plenty of water throughout the day.</li>
+        <li>Meal Timing: Aim for 3 main meals and 2-3 snacks daily.</li>
+    </ul>
+
+    <h2>Sample Meal Plan</h2>
+
+    <h3>Breakfast</h3>
+    <p>Scrambled eggs (2-3 eggs) with spinach and tomatoes</p>
+    <p>Whole grain toast with avocado</p>
+
+    <h3>Morning Snack</h3>
+    <p>Greek yogurt with a drizzle of honey and a handful of granola</p>
+
+    <h3>Lunch</h3>
+    <p>Grilled chicken salad with mixed greens, cherry tomatoes, and vinaigrette</p>
+    <p>Quinoa or brown rice on the side</p>
+
+    <h3>Afternoon Snack</h3>
+    <p>Sliced turkey or chicken breast rolled with cheese</p>
+
+    <h3>Dinner</h3>
+    <p>Baked salmon or chicken breast with roasted sweet potatoes and steamed broccoli</p>
+
+    <h3>Evening Snack (optional)</h3>
+    <p>Cottage cheese with pineapple or berries</p>
+</div>
+
+</body>
+</html>

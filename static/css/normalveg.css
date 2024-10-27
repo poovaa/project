@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5e9; /* Light green background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Adding a hover effect */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+h1 {
+    color: #4CAF50; /* Green color */
+    text-align: center;
+    font-size: 2.5em; /* Larger font size */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50; /* Green color */
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4CAF50; /* Green color */
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f0f8e8; /* Light green background for lists */
+    border-radius: 5px;
+}
